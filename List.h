@@ -13,7 +13,7 @@ public:
 
     virtual void addFront(T* value) = 0;
     virtual void deleteFront() = 0;
-    virtual void search(T* value) const = 0;
+    virtual bool search(T* value) const = 0;
     virtual void print() const = 0;
 
 };
